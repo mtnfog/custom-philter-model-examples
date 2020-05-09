@@ -1,5 +1,9 @@
 # Philter Example Custom Model using OpenNLP and Spring Boot
 
+This example uses OpenNLP and Spring Boot to expose a named-entity recognizer via an HTTP interface compatible with Philter.
+
+The required HTTP interface is documented in [Philter's User's Guide](https://philter.mtnfog.com/filtering/using-custom-nlp-models).
+
 ## Build and Run 
 
 ```
@@ -32,3 +36,10 @@ Verify the response:
 ```
 healthy
 ```
+
+## License
+
+This project is licensed under the Apache License, version 2.0.
+
+Copyright 2020 Mountain Fog, Inc.
+Philter is a registered trademark of Mountain Fog, Inc.
